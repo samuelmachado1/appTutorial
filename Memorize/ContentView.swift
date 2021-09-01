@@ -11,11 +11,12 @@ struct ContentView: View {
     var body: some View {
         HStack{
             ForEach(0..<4) { index in
+                //coments
                 CardView(isFaceUp: true)
             }
         }
         .padding()
-        .foregroundColor(Color.orange)
+        .foregroundColor(Color.purple)
         .font(Font.largeTitle)
     }
 }
